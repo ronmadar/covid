@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/app.css">
+    <script type="text/javascript" src="assets/scripts/app.js" defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>covid-api</h1>
+        <section id="section">
+            <h2>Daily new confirmed cases in a given country</h2>
+            <div class="date">
+                <input type="text" placeholder="country" value="France" id="country" class="input">
+                <input type="text" placeholder="day" value="17" id="day" class="input">
+                <input type="text" placeholder="month" value="12" id="month" class="input">
+                <input type="text" placeholder="years" value="2020" id="year" class="input">
+
+            
+
+                <input type="button" value="Press me" id="submitFirst" class="button">
+                    <!-- <div id="country_output" class="res"></div>
+                    <div id="year_output" class="res"></div>
+                    <div id="month_output" class="res"></div>
+                    <div id="day_output" class="res"></div> -->
+            </div>
+        </section>
+
+        <section>
+
+            <h2>Compare between two countries</h2>
+            <div class="date">
+                <input type="text" placeholder="first country" value="France" id="firstCountry" class="input">
+                <input type="text" placeholder="years" value="2021" id="firstYear" class="input">
+                <input type="text" placeholder="month" value="05" id="firstMonth" class="input">
+                <input type="text" placeholder="day" value="12" id="firstDay" class="input">
+
+                <input type="text" placeholder="seconde country" value="Germany" id="secCountry" class="input">
+                <input type="text" placeholder="years" value="2021" id="secondeYear" class="input">
+                <input type="text" placeholder="month" value="05" id="secondeMonth" class="input">
+                <input type="text" placeholder="day" value="13" id="secondeDay" class="input">
+
+                <input type="button" value="Press me" id="submitSeco" class="button">
+                    <!-- <div id="country_output" class="res"></div>
+                    <div id="year_output" class="res"></div>
+                    <div id="month_output" class="res"></div>
+                    <div id="day_output" class="res"></div> -->
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Return the number of COVID deaths by country.</h2>
+            <div class="date">
+                <input type="text" placeholder="country" value="France" id="inputCountryAdd" class="input">
+                <input type="button" value="Add country" id="add_button" class="button">
+                <input type="button" value="Remove country" id="remove_button" class="button">
+                <input type="button" value="Get the list of country" id="get_button" class="button">
+                <input type="button" value="Get deaths" id="deaths_button" class="button">
+
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
+
+
